@@ -47,3 +47,5 @@ Can be accessed like this:
 ```sql
 Console.WriteLine(Car.MaxAllowedSpeed);
 ```
+
+3. Static Constructor
