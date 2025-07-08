@@ -48,4 +48,7 @@ Can be accessed like this:
 Console.WriteLine(Car.MaxAllowedSpeed);
 ```
 
-3. Static Constructor
+3. Static Constructor : 
+
+- Purpose:
+Initializes static fields of a class. It runs once only — the first time the class is used.
