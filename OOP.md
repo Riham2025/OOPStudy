@@ -5,6 +5,9 @@
 Here's a clear explanation of getters, setters, static constructors, and static fields :
 
  1. Getters and Setters : 
+
+What Are They?
+They are methods that control access to the internal fields (data) of a class.
 	
 - Purpose:
 They are used to control access to class fields in a safe and controlled way.
@@ -76,4 +79,4 @@ Called automatically before any static members or first object creation.
 | ------------------ | ------------ | --------------- | --------------------- | -------------------- |
 | Getter/Setter      | Object-level | No (per object) | No                    | N/A                  |
 | Static Field       | Class-level  | Yes (shared)    | N/A                   | N/A                  |
-| Static Constructor | Class-level  | Yes (once only) | ✅ Yes                 | ❌ No                 |
+| Static Constructor | Class-level  | Yes (once only) |  Yes                  |  No                  |
