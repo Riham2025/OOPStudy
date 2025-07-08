@@ -24,3 +24,9 @@ string carModel = myCar.Model;
 ```sql
 myCar.Model = "Toyota";
 ```
+
+- Benefits:
+
+Allow encapsulation (hiding internal data).
+
+Can add logic like validation in custom getter/setter methods.
