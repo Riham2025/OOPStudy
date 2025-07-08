@@ -36,6 +36,7 @@ public class Person
 
 
 
+
 	
 - Purpose:
 They are used to control access to class fields in a safe and controlled way.
@@ -108,3 +109,6 @@ Called automatically before any static members or first object creation.
 | Getter/Setter      | Object-level | No (per object) | No                    | N/A                  |
 | Static Field       | Class-level  | Yes (shared)    | N/A                   | N/A                  |
 | Static Constructor | Class-level  | Yes (once only) |  Yes                  |  No                  |
+
+
+
