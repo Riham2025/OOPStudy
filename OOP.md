@@ -31,4 +31,13 @@ Allow encapsulation (hiding internal data).
 
 Can add logic like validation in custom getter/setter methods.
 
-2. Static Fields
+2. Static Fields :
+
+- Purpose:
+A static field belongs to the class itself rather than any object (shared by all instances).
+
+- Example:
+```sql
+public static int MaxAllowedSpeed;
+public static string DefaultFuelType;
+```
