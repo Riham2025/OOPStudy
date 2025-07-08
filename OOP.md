@@ -12,3 +12,9 @@ They are used to control access to class fields in a safe and controlled way.
 ```sql
 public string Model { get; set; }  // Auto-implemented property
 ```
+
+- Getter retrieves the value:
+
+```sql
+string carModel = myCar.Model;
+```
