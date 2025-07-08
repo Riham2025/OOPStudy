@@ -62,3 +62,11 @@ static Car()
     Console.WriteLine("Static constructor called.");
 }
 ```
+
+- Notes:
+
+No access modifiers (like public or private).
+
+No parameters.
+
+Called automatically before any static members or first object creation.
