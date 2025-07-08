@@ -17,6 +17,25 @@ Add validation logic.
 Encapsulation: hiding how data is stored or processed.
 
 
+public class Person
+{
+    private string name; // private field
+
+    public string Name  // property with getter and setter
+    {
+        get { return name; }
+        set 
+        { 
+            if (value.Length >= 2)
+                name = value;
+            else
+                Console.WriteLine("Name must be at least 2 characters.");
+        }
+    }
+}
+
+
+
 	
 - Purpose:
 They are used to control access to class fields in a safe and controlled way.
