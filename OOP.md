@@ -41,3 +41,9 @@ A static field belongs to the class itself rather than any object (shared by all
 public static int MaxAllowedSpeed;
 public static string DefaultFuelType;
 ```
+These fields are shared among all objects of the class.
+
+Can be accessed like this:
+```sql
+Console.WriteLine(Car.MaxAllowedSpeed);
+```
