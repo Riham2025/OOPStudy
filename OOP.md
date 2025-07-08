@@ -1,4 +1,4 @@
-
+﻿
 
 ## Object Oriented Programming 
 
@@ -51,7 +51,7 @@ Console.WriteLine(Car.MaxAllowedSpeed);
 3. Static Constructor : 
 
 - Purpose:
-Initializes static fields of a class. It runs once only � the first time the class is used.
+Initializes static fields of a class. It runs once only — the first time the class is used.
 
 - Example:
 ```sql
@@ -70,3 +70,10 @@ No access modifiers (like public or private).
 No parameters.
 
 Called automatically before any static members or first object creation.
+
+
+| Concept            | Access Type  | Shared?         | Called Automatically? | Can Have Parameters? |
+| ------------------ | ------------ | --------------- | --------------------- | -------------------- |
+| Getter/Setter      | Object-level | No (per object) | No                    | N/A                  |
+| Static Field       | Class-level  | Yes (shared)    | N/A                   | N/A                  |
+| Static Constructor | Class-level  | Yes (once only) | ✅ Yes                 | ❌ No                 |
