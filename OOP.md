@@ -30,3 +30,5 @@ myCar.Model = "Toyota";
 Allow encapsulation (hiding internal data).
 
 Can add logic like validation in custom getter/setter methods.
+
+2. Static Fields
