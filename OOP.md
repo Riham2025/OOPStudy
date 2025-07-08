@@ -8,3 +8,7 @@ Here's a clear explanation of getters, setters, static constructors, and static 
 	
 - Purpose:
 They are used to control access to class fields in a safe and controlled way.
+
+```sql
+public string Model { get; set; }  // Auto-implemented property
+```
