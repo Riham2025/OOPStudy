@@ -52,3 +52,13 @@ Console.WriteLine(Car.MaxAllowedSpeed);
 
 - Purpose:
 Initializes static fields of a class. It runs once only — the first time the class is used.
+
+- Example:
+```sql
+static Car()
+{
+    MaxAllowedSpeed = 180;
+    DefaultFuelType = "Petrol";
+    Console.WriteLine("Static constructor called.");
+}
+```
