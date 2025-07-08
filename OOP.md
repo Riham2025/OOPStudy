@@ -18,3 +18,9 @@ public string Model { get; set; }  // Auto-implemented property
 ```sql
 string carModel = myCar.Model;
 ```
+
+- Setter sets the value:
+
+```sql
+myCar.Model = "Toyota";
+```
