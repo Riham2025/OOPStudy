@@ -4,4 +4,7 @@
 
 Here's a clear explanation of getters, setters, static constructors, and static fields :
 
- 1. Getters and Setters :
+ 1. Getters and Setters : 
+	
+- Purpose:
+They are used to control access to class fields in a safe and controlled way.
