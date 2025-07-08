@@ -6,8 +6,17 @@ Here's a clear explanation of getters, setters, static constructors, and static 
 
  1. Getters and Setters : 
 
-What Are They?
+- What Are They?
 They are methods that control access to the internal fields (data) of a class.
+
+- Why Use Them?
+Protect data from direct modification.
+
+Add validation logic.
+
+Encapsulation: hiding how data is stored or processed.
+
+
 	
 - Purpose:
 They are used to control access to class fields in a safe and controlled way.
