@@ -170,3 +170,12 @@ Called automatically before any static members or first object creation.
 
 In object-oriented programming (like C#), attributes — also called fields — are variables inside a class.
 They store data or state for each object (like a person’s name, age, etc.).
+
+- Example:
+
+```public class Person
+{
+    public string Name;     // Public attribute
+    private int age;        // Private attribute
+}
+```
