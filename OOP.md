@@ -128,6 +128,11 @@ Console.WriteLine(Car.MaxAllowedSpeed);
 
 3. Static Constructor : 
 
+- What Is It?
+A special constructor that initializes static data.
+
+Runs once when the class is used the first time.
+
 - Purpose:
 Initializes static fields of a class. It runs once only — the first time the class is used.
 
