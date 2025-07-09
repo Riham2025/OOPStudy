@@ -98,6 +98,21 @@ public static string DefaultFuelType;
 ```
 These fields are shared among all objects of the class.
 
+- Example:
+``` public class Car
+{
+    public static int MaxSpeed = 180;  // shared by all cars
+
+    public string Model;
+    public int Speed;
+
+    public void ShowDetails()
+    {
+        Console.WriteLine($"{Model} speed is {Speed} (Max: {MaxSpeed})");
+    }
+}
+```
+
 Can be accessed like this:
 ```sql
 Console.WriteLine(Car.MaxAllowedSpeed);
