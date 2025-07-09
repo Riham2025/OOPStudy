@@ -85,6 +85,12 @@ Fields that are shared across all instances of a class.
 - Purpose:
 A static field belongs to the class itself rather than any object (shared by all instances).
 
+- Why Use Them?
+
+You want a common setting or value for all objects (e.g., max speed limit).
+
+Reduce memory usage — only one copy exists.
+
 - Example:
 ```sql
 public static int MaxAllowedSpeed;
