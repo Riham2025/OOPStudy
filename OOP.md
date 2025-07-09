@@ -21,18 +21,7 @@ public class Person
 {
     private string name; // private field
 
-    public string Name  // property with getter and setter
-    {
-        get { return name; }
-        set 
-        { 
-            if (value.Length >= 2)
-                name = value;
-            else
-                Console.WriteLine("Name must be at least 2 characters.");
-        }
-    }
-}
+   
 
 - Example:
 ``` public class Person
@@ -54,6 +43,13 @@ public class Person
 
 ```
 
+Usage:
+
+```    Person p = new Person();
+p.Name = "Al";      // Sets the name using setter
+Console.WriteLine(p.Name);  // Gets the name using getter
+
+```
 	
 - Purpose:
 They are used to control access to class fields in a safe and controlled way.
