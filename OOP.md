@@ -113,6 +113,14 @@ These fields are shared among all objects of the class.
 }
 ```
 
+- Usage:
+```Car c1 = new Car { Model = "Toyota", Speed = 150 };
+Car c2 = new Car { Model = "Honda", Speed = 160 };
+
+c1.ShowDetails();  // Toyota speed is 150 (Max: 180)
+c2.ShowDetails();  // Honda speed is 160 (Max: 180)
+```
+
 Can be accessed like this:
 ```sql
 Console.WriteLine(Car.MaxAllowedSpeed);
