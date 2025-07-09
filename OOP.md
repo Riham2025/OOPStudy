@@ -78,6 +78,10 @@ Can add logic like validation in custom getter/setter methods.
 
 2. Static Fields :
 
+ - What Are They?
+
+Fields that are shared across all instances of a class.
+
 - Purpose:
 A static field belongs to the class itself rather than any object (shared by all instances).
 
