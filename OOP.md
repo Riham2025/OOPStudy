@@ -166,7 +166,7 @@ Called automatically before any static members or first object creation.
 
 ## Object Oriented Programming Part2 :
 
-1. What Are Attributes (Fields)?
+1. What Are Attributes (Fields)??
 
 In object-oriented programming (like C#), attributes — also called fields — are variables inside a class.
 They store data or state for each object (like a person’s name, age, etc.).
