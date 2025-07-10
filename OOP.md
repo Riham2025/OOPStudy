@@ -179,3 +179,4 @@ They store data or state for each object (like a person’s name, age, etc.).
     private int age;        // Private attribute
 }
 ```
+
